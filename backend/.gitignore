@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+venv/
+.venv/
+.env
+videosec.db
+uploads/*
+!uploads/.gitkeep
+storage/encrypted/*
+!storage/encrypted/.gitkeep
