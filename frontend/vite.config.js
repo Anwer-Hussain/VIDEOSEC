@@ -1,10 +1,11 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// VIDEOSEC frontend - proxies /api calls to the Flask backend on :5000
-// so the browser never needs CORS trickery in dev mode.
 export default defineConfig({
   plugins: [react()],
+
+  base: '/VIDEOSEC/',
+
   server: {
     host: true,
     port: 5173,
